@@ -31,6 +31,6 @@ Just in case you do not remember how to create a new project and clone git...
 2. Change your working directory to numberGame
 `cd numberGame`
 3. Clone the code you need into the directory you just created
-`git clone https://github.com/steveflint3/numberGame.git`
-4. Open your cloned code in Atom
+`git clone https://github.com/t1cgAcademy/Web-Dev-101-Week-3-Assignment.git`
+4. Open your cloned code in Atom or Visual Studio Code
 `atom .`
