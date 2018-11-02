@@ -10,6 +10,15 @@ them however you like, just make sure they still pass the tests.
 If you want to see how your functions are working, you can do the following
 
 type ```node```
+
+
 then inside the shell type ```var logic = require('./logic.js') ```
+
+
 then call your function ```square = logic.drawSquare(5) ```
+
+
 and print the result ```console.log(square) ```
+
+
+
