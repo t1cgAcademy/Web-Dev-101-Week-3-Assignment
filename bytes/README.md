@@ -1,7 +1,7 @@
 ## Byte sized problems
 
 These you can do one at a time. You'll be making changes to logic.js,
-then testing the changes by running ```node test```. To see the output type
+then testing the changes by running ```node test```. To see the output, type
 ```node test -l```.
 
 Some functions are already working, but are not using good practices. You can rewrite
