@@ -1,7 +1,6 @@
 var logic = require('./logic.js');
 var args = process.argv.slice(2);
-console.log(args)
-console.log('-l' === args[0])
+
 // TEST DATA
 const data = [
   { name: "Phil",   "state": "MD", "tz": "EST", "age": 12, "status": "child", "scores": [180, 171, 179], "senior": true  },
