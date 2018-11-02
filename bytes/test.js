@@ -8,7 +8,7 @@ const data = [
   { name: "Bob",    "state": "NY", "tz": "EST", "age": 18, "status": "adult", "scores": [156, 200, 172], "senior": true  },
   { name: "Alice",  "state": "IL", "tz": "CST", "age": 19, "status": "adult", "scores": [190, 190, 189], "senior": false },
   { name: "Jon",    "state": "TX", "tz": "CST", "age": 20, "status": "adult", "scores": [120, 135, 160], "senior": false },
-  { name: "Sue",    "state": "MA", "tz": "EST", "age": 15, "status": "adult", "scores": [230, 200, 198], "senior": true  },
+  { name: "Sue",    "state": "MA", "tz": "EST", "age": 15, "status": "teen",  "scores": [230, 200, 198], "senior": true  },
   { name: "Rex",    "state": "DC", "tz": "EST", "age": 11, "status": "child", "scores": [134, 67, 150],  "senior": false },
   { name: "Beth",   "state": "MI", "tz": "CST", "age": 13, "status": "teen",  "scores": [203, 267, 220], "senior": true  },
   { name: "Joe",    "state": "SD", "tz": "CST", "age": 17, "status": "teen",  "scores": [115, 116, 114], "senior": true  },
