@@ -55,7 +55,7 @@ const testLoops = [
   {
     "id": "highestScore",
     "got": logic.highestScore(data),
-    "want": "Got The highest score is 267 from Beth",
+    "want": "The highest score is 267 from Beth",
   },
   {
     "id": "avgScore",
