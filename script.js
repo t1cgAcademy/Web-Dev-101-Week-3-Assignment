@@ -27,11 +27,11 @@ resetGame = () => {
   const secretNumber = Math.floor(Math.random() * 100);
 }
 
-button.addEventListener("click", function() {
+guess = () => {
 //set the guestCount variable (remember you can because you used "let") increment
 //by one everytime a guess is entered with the guess button
 document.getElementById("numOfGuesses").textContent = guessCount;
-//create lowOrHi variable for lowOrHi <p> tag for DOM manipulation using document.querySelector.
+//create lowOrHigh variable for lowOrHigh <p> tag for DOM manipulation using document.querySelector.
 //hint: Do not forget the #
 const stringGuess = Number(input.value);
 //create prevGuesses variable for prevGuesses <p> tag for DOM manipulation using document.querySelector.
@@ -46,16 +46,16 @@ if (){
 
 
 } else if (stringGuess > secretNumber && guessCount < 11){
-  lowOrHi.textContent = "You are too hi!!";
+  lowOrHigh.textContent = "You are too high!!";
 }
   //Create another else if with the conditions if the stringGuess is less than the secretNumber
-  //and the guessCount is less than 11 then the textContent of lowOrHi will change to "You are too low!!!"
+  //and the guessCount is less than 11 then the textContent of lowOrHigh will change to "You are too low!!!"
   //Similar to the code above
 else if (){
 
 } else {
-  lowOrHi.textContent = "Game Over!";
+  lowOrHigh.textContent = "Game Over!";
   setGameOver();
 }
 
-});
+};
