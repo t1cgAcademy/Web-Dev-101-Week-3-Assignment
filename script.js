@@ -1,8 +1,8 @@
 const button = document.getElementById('buttonGuess');
 const input = document.querySelector('#guess');
 let secretNumber = Math.floor(Math.random() * 100);
-// const resetButton = document.createElement('button');
 const resetButton = document.getElementById('resetButton')
+const numberOfGuesses = document.getElementById('numOfGuesses');
 let guessCount = 0;
 
 setGameOver = () => {
@@ -14,11 +14,7 @@ setGameOver = () => {
 
 resetGame = () => {
   guessCount = 0;
-  const resetResult = document.querySelectorAll('.resultField');
-  for (let i = 0; i < resetResult.length; i++) {
-    resetResult[i].textContent = '';
-  }
-  // resetButton.parentNode.removeChild(resetButton);
+  numberOfGuesses.textContent = '';
   resetButton.classList.toggle('hidden')
   input.disabled = false;
   button.disabled = false;
@@ -31,7 +27,7 @@ resetGame = () => {
 
 enterGuess = () => {
   guessCount = guessCount + 1;
-  document.getElementById('numOfGuesses').textContent = guessCount;
+  numberOfGuesses.textContent = guessCount;
   const lowOrHi = document.querySelector('#lowOrHi');
   const stringGuess = Number(input.value);
   const prevGuesses = document.querySelector('#prevGuesses');
