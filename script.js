@@ -1,5 +1,6 @@
 const button = document.getElementById('buttonGuess');
 const input = document.querySelector('#guess');
+const prevGuesses = document.querySelector('#prevGuesses');
 let secretNumber = Math.floor(Math.random() * 100);
 const resetButton = document.getElementById('resetButton')
 const numberOfGuesses = document.getElementById('numOfGuesses');
@@ -30,7 +31,6 @@ enterGuess = () => {
   numberOfGuesses.textContent = guessCount;
   const lowOrHi = document.querySelector('#lowOrHi');
   const stringGuess = Number(input.value);
-  const prevGuesses = document.querySelector('#prevGuesses');
   prevGuesses.textContent += stringGuess + '  ';
 
   if (stringGuess === secretNumber) {
