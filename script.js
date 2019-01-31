@@ -1,7 +1,8 @@
 const button = document.getElementById('buttonGuess');
 const input = document.querySelector('#guess');
 let secretNumber = Math.floor(Math.random() * 100);
-const resetButton = document.createElement('button');
+// const resetButton = document.createElement('button');
+const resetButton = document.getElementById('resetButton')
 let guessCount = 0;
 
 setGameOver = () => {
@@ -9,7 +10,7 @@ setGameOver = () => {
   button.disabled = true;
   resetButton.textContent = 'Try Again';
   document.body.appendChild(resetButton);
-  resetButton.addEventListener('click', resetGame);
+  resetButton.classList.toggle('hidden')
 };
 
 resetGame = () => {
@@ -18,7 +19,8 @@ resetGame = () => {
   for (let i = 0; i < resetResult.length; i++) {
     resetResult[i].textContent = '';
   }
-  resetButton.parentNode.removeChild(resetButton);
+  // resetButton.parentNode.removeChild(resetButton);
+  resetButton.classList.toggle('hidden')
   input.disabled = false;
   button.disabled = false;
   input.value = '';
@@ -28,7 +30,7 @@ resetGame = () => {
   secretNumber = Math.floor(Math.random() * 100);
 };
 
-button.addEventListener('click', function () {
+enterGuess = () => {
   guessCount = guessCount + 1;
   document.getElementById('numOfGuesses').textContent = guessCount;
   const lowOrHi = document.querySelector('#lowOrHi');
@@ -47,4 +49,4 @@ button.addEventListener('click', function () {
     lowOrHi.textContent = 'Game Over!';
     setGameOver();
   }
-});
+}
