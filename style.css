@@ -1,0 +1,36 @@
+/* #hiLo {
+    font-weight: bold;
+}
+
+#numOG {
+    font-weight: bold;
+} */
+body {
+    background: lightgray;
+    color: black;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px gray;
+}
+
+#hiLo {
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#buttonGuess {
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+#numOG,
+#prevGuesses {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#guess {
+    color: black;
+    width: 500px;
+}
