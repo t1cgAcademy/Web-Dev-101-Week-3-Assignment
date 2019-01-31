@@ -9,7 +9,6 @@ setGameOver = () => {
   input.disabled = true;
   button.disabled = true;
   resetButton.textContent = 'Try Again';
-  document.body.appendChild(resetButton);
   resetButton.classList.toggle('hidden')
 };
 
