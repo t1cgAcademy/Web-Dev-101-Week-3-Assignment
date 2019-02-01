@@ -1,29 +1,31 @@
 body {
-    background: lightgray;
-    color: black;
-    text-align: center;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px gray;
+  /* background: lightgray;
+    Set background to light gray
+    Make sure text color is black
+    Center text within body
+    Add a solid border that is 1px wide to body
+    Add 10px top, bottom, right left padding (bonus points if you can do this
+    in one line)
+    Add a gray box-shadow with 5px width and 10px height  */
 }
 
 #hiLo {
-    font-size: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* Set font size to 100px */
+  /* Change text font to desired font */
 }
 
 #buttonGuess {
-    border-radius: 8px;
-    background-color: lightblue;
+  /* Round button edges to desired px
+  Set background color to light blue */
 }
 
 #numOG,
 #prevGuesses {
-    text-decoration: underline;
-    font-size: 25px;
+  /* Underline text
+  Set size of font to 25px */
 }
 
 #guess {
-    color: black;
-    width: 500px;
+  /* Set color of text to black
+  Set width to 500px */
 }
