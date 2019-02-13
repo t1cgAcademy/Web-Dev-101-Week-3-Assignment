@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <p id="hiLo">High or Low</p>
   <p id="lowOrHi"></p>
   <p id="numOG">Number of Guesses</p>
@@ -22,7 +21,17 @@
   <p id="prevGuesses">Previous Guesses: </p>
   <button id="buttonGuess" onclick="enterGuess()">Enter Guess</button>
   <button id="resetButton" onclick="resetGame()" class="hidden">Reset Game</button>
+  <button onclick="showAnswer()">Click if you give up</button>
+  <h3 class="showAnswer"></h3>
+  <hr />
+  <p id="hiLo">Guess the Word</p>
+  <p id="hiddenWordDisplay"></p>
+  <p id="wordInstructions" class="classHidden">Guess a letter</p>
+  <input id="letterGuess" />
+  <p class="classHidden" id="alreadyGuessedDisplay"></p>
+  <button onclick="playGame()" id="startButton">Start Game</button>
+  <button onclick="enterLetter()" class="classHidden" id="enterButton">Enter Guess</button>
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>

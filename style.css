@@ -12,13 +12,14 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#buttonGuess {
+button {
   border-radius: 8px;
   background-color: lightblue;
 }
 
 #numOG,
-#prevGuesses {
+#prevGuesses,
+#alreadyGuessedDisplay {
   text-decoration: underline;
   font-size: 25px;
 }
@@ -26,4 +27,8 @@ body {
 #guess {
   color: black;
   width: 500px;
+}
+
+.classHidden {
+  display: none
 }
