@@ -9,6 +9,12 @@ All value displays (including the input) should be reset and the input
 cursor should reappear. This is also a great opportunity to practice CSS, in addition
 to the HTML and Javascript that you will need!
 
+## New Tasks
+
+1. Check if input is a number and alert user if it is not
+2. Add a show answer button
+3. Word Guessing Game (this is a big task, but give it a try!)
+
 Assignment Set up instructions (Just in case you forgot)...
 
 ## Set Up Instructions (Just in case)

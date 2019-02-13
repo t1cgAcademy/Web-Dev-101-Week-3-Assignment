@@ -14,13 +14,14 @@ body {
   /* Change text font to desired font */
 }
 
-#buttonGuess {
+button {
   /* Round button edges to desired px
   Set background color to light blue */
 }
 
 #numOG,
-#prevGuesses {
+#prevGuesses,
+#alreadyGuessedDisplay {
   /* Underline text
   Set size of font to 25px */
 }
@@ -29,3 +30,5 @@ body {
   /* Set color of text to black
   Set width to 500px */
 }
+
+/* create classHidden class */
